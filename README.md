@@ -32,7 +32,7 @@ Results on nuScenes *val* set
 
 |    Model   | mAP  |  NDS | Link |
 |:----------:|:----:|:----:|:----:|
-| [FG-PFE](tools/cfgs/nuscenes_models/fgpfe.yaml) | TBA | TBA | TBA |
+| [FG-PFE](tools/cfgs/nuscenes_models/fgpfe.yaml) | 60.5 | 68.1 | https://drive.google.com/file/d/1tFnkFC5AxKJiwcxrFSiA_E6bmwKKsmle/view?usp=drive_link |
 
 ## Acknowledgement
 

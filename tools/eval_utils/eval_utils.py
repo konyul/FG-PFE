@@ -51,7 +51,7 @@ def eval_one_epoch(cfg, args, model, dataloader, epoch_id, logger, dist_test=Fal
                 broadcast_buffers=False
         )
     model.eval()
-    model.module_list  = [bn_folder.bn_folding_model(x) for x in model.module_list]
+
     if cfg.LOCAL_RANK == 0:
         progress_bar = tqdm.tqdm(total=len(dataloader), leave=True, desc='eval', dynamic_ncols=True)
     start_time = time.time()
